@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>My Profile</title>
+
+    <!-- Font Poppins -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav>
+    <h1>My Profile</h1>
+    <ul>
+        <li><a href="#biodata">Biodata</a></li>
+        <li><a href="#family">Family</a></li>
+        <li><a href="#hobi">Hobi</a></li>
+        <li><a href="#cita">Cita-cita</a></li>
+        <li><a href="#daily">Daily</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+    </ul>
+</nav>
+
+<!-- HERO -->
+<header>
+    <img src="assets/img/profile.jpg" alt="profile">
+    <h2>HABIB NURAN MULKAN</h2>
+    <p>Mahasiswa | ui/ux Designer | Future Developer</p>
+</header>
+
+<!-- BIODATA -->
+<section id="biodata" class="card">
+    <h2>Biodata</h2>
+    <p>Nama: HABIB NURAN MULKAN</p>
+    <p>NPM: 2408107010109</p>
+    <p>Prodi: Informatika </p>
+</section>
+
+<!-- FAMILY -->
+<section id="family" class="card">
+    <h2>Family</h2>
+    <p>Keluarga adalah support system terbaik.</p>
+</section>
+
+<!-- HOBI -->
+<section id="hobi" class="card">
+    <h2>Hobi</h2>
+    <ul>
+        <li>Futsal</li>
+        <li>Tidur</li>
+
+    </ul>
+</section>
+
+<!-- CITA -->
+<section id="cita" class="card">
+    <h2>Cita-cita</h2>
+    <p>Menjadi orang kaya</p>
+</section>
+
+<!-- DAILY -->
+<section id="daily" class="card">
+    <h2>Daily Activities</h2>
+    <p>Tidur</p>
+</section>
+
+<!-- GALLERY -->
+<section id="gallery" class="card">
+    <h2>Gallery</h2>
+
+    <img src="assets/img/profile.jpg" width="200">
+
+    <br><br>
+
+    <audio controls>
+        <source src="assets/music/music.mp3" type="audio/mp3">
+    </audio>
+
+    <br><br>
+
+    <button onclick="showAlert()">Klik Interaksi</button>
+</section>
+
+<footer>
+    <p>© 2026 HABIB NURAN MULKAN</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
