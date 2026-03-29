@@ -1,0 +1,90 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    background: #eaf4ff;
+}
+
+/* NAVBAR */
+nav {
+    background: linear-gradient(to right, #13191f, #2c3e50);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+
+/* NAV LINK JADI BUTTON */
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 15px;
+    border-radius: 20px;
+    background: transparent;
+    transition: all 0.3s ease;
+}
+
+/* HOVER EFFECT */
+nav a:hover {
+    background: rgba(255, 255, 255, 0.15);
+    transform: scale(1.1);
+}
+
+/* KLIK EFFECT */
+nav a:active {
+    transform: scale(0.95);
+}
+
+/* HERO */
+header {
+    text-align: center;
+    padding: 30px;
+}
+
+header img {
+    width: 120px;
+    border-radius: 3%;
+}
+
+/* CARD */
+.card {
+    background: white;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 12px;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.03);
+}
+
+/* BUTTON */
+button {
+    padding: 10px 20px;
+    background: #212b36;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #222b34;
+    transform: scale(1.05);
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 15px;
+    background: #1a1e23;
+    color: white;
+}
